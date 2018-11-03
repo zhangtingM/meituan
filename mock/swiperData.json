@@ -1,0 +1,87 @@
+[{
+        "title": [{
+                "iconClass": "icon-haofangtuo400iconfont2meishi",
+                "tit": "美食"
+            },
+            {
+                "iconClass": "icon-taobaodianying",
+                "tit": "猫眼电影"
+            },
+            {
+                "iconClass": "icon-jiudian",
+                "tit": "酒店"
+            },
+            {
+                "iconClass": "icon-xiuxianyule",
+                "tit": "休闲娱乐"
+            },
+            {
+                "iconClass": "icon-icon-test",
+                "tit": "外卖"
+            },
+            {
+                "iconClass": "icon-ktv",
+                "tit": "KTV"
+            },
+            {
+                "iconClass": "icon-zhoubianyou",
+                "tit": "周边游"
+            },
+            {
+                "iconClass": "icon-liren",
+                "tit": "丽人"
+            },
+            {
+                "iconClass": "icon-shutiao",
+                "tit": "小吃快餐"
+            },
+            {
+                "iconClass": "icon-huochepiao",
+                "tit": "火车票"
+            }
+        ]
+    },
+    {
+        "title": [{
+                "iconClass": "icon-shenghuofuwu",
+                "tit": "生活服务"
+            },
+            {
+                "iconClass": "icon-jinrixindan",
+                "tit": "今日新单"
+            },
+            {
+                "iconClass": "icon-zuliao",
+                "tit": "足疗"
+            },
+            {
+                "iconClass": "icon-yinliaoxiaochi",
+                "tit": "饮料小吃"
+            },
+            {
+                "iconClass": "icon-muyingqinzi",
+                "tit": "母婴亲子"
+            },
+            {
+                "iconClass": "icon-xuexipeixun",
+                "tit": "学习培训"
+            },
+            {
+                "iconClass": "icon-jiehun",
+                "tit": "结婚"
+            },
+            {
+                "iconClass": "icon-jiazhuangshuazigunziyouqishuamianxing",
+                "tit": "家装"
+            },
+            {
+                "iconClass": "icon-che",
+                "tit": "汽车服务"
+            },
+            {
+                "iconClass": "icon-gengduo",
+                "tit": "全部分类"
+            }
+        ]
+    }
+]

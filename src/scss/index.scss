@@ -1,0 +1,155 @@
+@import "_common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: pxTorem(44px);
+    background: #06c1ae;
+    border-bottom: pxTorem(1px) solid #21897d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 pxTorem(15px);
+    box-sizing: border-box;
+    font-size: pxTorem(16px);
+    color: #fff;
+    .iconfont {
+        font-size: pxTorem(16px);
+    }
+    span {
+        width: pxTorem(100px);
+    }
+    p {
+        flex: 1;
+        height: 60%;
+        display: flex;
+        border-radius: pxTorem(4px);
+        background: #05a192;
+        input {
+            color: #68dbcf;
+        }
+        i {
+            line-height: pxTorem(25px);
+            margin: 0 pxTorem(5px);
+        }
+    }
+    .H_right {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #f0efed;
+    overflow-y: auto;
+    .banner {
+        width: 100%;
+        border-bottom: pxTorem(1px) solid #CFCFCF;
+        background: #fff;
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+    }
+    .swiper-container {
+        width: 100%;
+        height: pxTorem(180px);
+        background: #fff;
+        flex-shrink: 0;
+        .swiper-wrapper {
+            width: 100%;
+            height: 100%;
+            .swiper-slide {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: center;
+                dl {
+                    width: 20%;
+                    text-align: center;
+                    font-size: pxTorem(16px);
+                    .iconfont {
+                        font-size: pxTorem(25px);
+                    }
+                    dd {
+                        margin-top: pxTorem(8px)
+                    }
+                }
+            }
+        }
+    }
+    .bottom {
+        width: 100%;
+        margin-top: pxTorem(10px);
+        background: #fff;
+        h3 {
+            line-height: pxTorem(30px);
+            font-size: pxTorem(16px);
+            padding-left: pxTorem(10px);
+            box-sizing: border-box;
+            border-bottom: pxTorem(1px) solid #CFCFCf;
+        }
+        .Bot_List {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            dl {
+                height: pxTorem(140px);
+                display: flex;
+                // justify-content: space-between;
+                align-items: center;
+                margin-right: pxTorem(10px);
+                padding-left: pxTorem(10px);
+                box-sizing: border-box;
+                border-bottom: pxTorem(1px) solid #CFCFCf;
+                dt {
+                    width: pxTorem(100px);
+                    height: pxTorem(100px);
+                    display: flex;
+                    align-items: center;
+                    margin-right: pxTorem(15px);
+                    img {
+                        background-size: 100%;
+                        background-color: #f0efed;
+                    }
+                }
+                dd {
+                    flex: 1;
+                    height: pxTorem(100px);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-size: pxTorem(16px);
+                    .B_top {
+                        display: flex;
+                        flex-direction: column;
+                        height: pxTorem(50px);
+                    }
+                    .B_bot {
+                        display: flex;
+                        font-size: pxTorem(14px);
+                        justify-content: space-between;
+                        b {
+                            color: #06c1ae;
+                            font-size: pxTorem(18px);
+                            margin-right: pxTorem(5px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
